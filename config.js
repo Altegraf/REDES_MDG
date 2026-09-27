@@ -14,7 +14,7 @@ const CONFIG = {
     nombreAcento: "UN",                    // esta palabra sale en naranja, como en tu portada
     logo: "assets/img/logo.png",
     wordmark: "",                          // si algún día tienes un PNG con el nombre, ponlo aquí
-    lema: "Reseñas de model kits, figuras y todo lo geek.",
+    lema: "Reseñas de model kits, Figuras, Hardware, Gaming, entretenimiento y todo lo geek.",
     descripcion: "Todas nuestras redes, los productos que reseñamos y cómo apoyarnos."
   },
 
@@ -34,7 +34,7 @@ const CONFIG = {
   /* ---------- 3. BOTÓN PRINCIPAL ---------- */
   destacado: {
     texto: "Suscríbete en YouTube",
-    nota: "Reseñas nuevas cada semana",
+    nota: "Videos nuevos cada que podemos XD",
     url: "https://www.youtube.com/channel/UCTbBuveaDtAB_FesLjxeOCA",
     icono: "youtube"
   },
@@ -85,9 +85,9 @@ const CONFIG = {
       nota: "¿Piensas comprar más de un producto? Descuida: basta con que entres desde uno de los enlaces.",
       items: [
         /* Cambia "Producto 1" por el nombre real de cada kit. */
-        { texto: "Producto 1", detalle: "Ver en Amazon", url: "https://link.amazon/B099OsCuU", icono: "compras" },
-        { texto: "Producto 2", detalle: "Ver en Amazon", url: "https://link.amazon/B0ce0ZU81", icono: "compras" },
-        { texto: "Producto 3", detalle: "Ver en Amazon", url: "https://link.amazon/B08OY2GML", icono: "compras" }
+        { texto: "BLOKEES MARVEL RIVALS SPIDER-MAN - ", detalle: "Ver en Amazon", url: "https://link.amazon/B08VOx2gA", icono: "compras" },
+        { texto: "HGUC STARK JEGAN", detalle: "Ver en Amazon", url: "https://link.amazon/B05DOsxCC", icono: "compras" },
+        { texto: "EG WING GUNDAM", detalle: "Ver en Amazon", url: "https://link.amazon/B0hWG6UKM", icono: "compras" }
       ]
     },
 
@@ -98,14 +98,14 @@ const CONFIG = {
       banner: "",
       nota: "¿Piensas comprar más de un producto? Descuida: basta con que entres desde uno de los enlaces.",
       items: [
-        { texto: "Producto 1", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c4DeyGKJ", icono: "compras" },
-        { texto: "Producto 2", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c423m9zt", icono: "compras" },
-        { texto: "Producto 3", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c3BEcRK7", icono: "compras" },
-        { texto: "Producto 4", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c34k0r8n", icono: "compras" },
-        { texto: "Producto 5", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c329FFdt", icono: "compras" },
-        { texto: "Producto 6", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c4T7zgEP", icono: "compras" },
-        { texto: "Producto 7", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c3KC8D49", icono: "compras" },
-        { texto: "Producto 8", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c3qbBAQf", icono: "compras" }
+        { texto: "BIRD/BINARY ANONYMOUS BIRD", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_mq9G2rt", icono: "compras" },
+        { texto: "CHANGLONG 5506 AKATSUKI GUNDAM RG", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_msTPpQT", icono: "compras" },
+        { texto: "CHANGLONG 5503 HI NU GUNDAM RG", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c308XjFB", icono: "compras" },
+        { texto: "CHANGLONG 5505 WING GUNDAM ZERO RG", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c3wxmYY5", icono: "compras" },
+        // { texto: "Producto 5", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c329FFdt", icono: "compras" },
+        // { texto: "Producto 6", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c4T7zgEP", icono: "compras" },
+        // { texto: "Producto 7", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c3KC8D49", icono: "compras" },
+        // { texto: "Producto 8", detalle: "Ver en AliExpress", url: "https://s.click.aliexpress.com/e/_c3qbBAQf", icono: "compras" }
       ]
     },
 
@@ -141,7 +141,7 @@ const CONFIG = {
       titulo: "Información",
       banner: "",
       contenido: [
-        "Me Dijo un Geek es un canal de reseñas de model kits, figuras y coleccionables. Aquí encuentras todos los canales, los productos que hemos reseñado y la forma de apoyar el proyecto.",
+        "Me Dijo un Geek es un canal de reseñas y entretenimiento relacionado al gaming, hardware y coleccionismo. Aquí encuentras todos los canales, los productos que hemos reseñado y la forma de apoyar el proyecto.",
         "Los enlaces de compra son de afiliado: a ti te cuesta lo mismo y al canal le ayuda a seguir haciendo reseñas."
       ]
     }
