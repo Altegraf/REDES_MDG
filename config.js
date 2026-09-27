@@ -118,7 +118,7 @@ const CONFIG = {
         /* Para agregar un video: abre el video en YouTube, copia lo que va
            después de "v=" en la barra de direcciones y pégalo en "id".
            Ejemplo: youtube.com/watch?v=ABC123xyz  ->  id: "ABC123xyz"        */
-        { tipo: "youtube", id: "CAMBIA_ESTE_ID", titulo: "Reseña más reciente" },
+        { tipo: "youtube", id: "c0a4dsUF5Ok", titulo: "Model kits Bootleg u Original" },
         { tipo: "youtube", id: "CAMBIA_ESTE_ID", titulo: "Unboxing" },
         { tipo: "imagen",  src: "assets/img/portada.png", titulo: "Me Dijo un Geek" }
       ]
