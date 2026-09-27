@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Me Dijo un Geek</title>
+<meta name="description" content="Todas nuestras redes, los productos que reseñamos y cómo apoyarnos.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Me Dijo un Geek">
+<meta property="og:description" content="Todas nuestras redes, los productos que reseñamos y cómo apoyarnos.">
+<meta property="og:image" content="assets/img/portada.png">
+<meta name="theme-color" content="#04324F">
+<link rel="icon" href="assets/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+
+  <!-- esquirlas decorativas del fondo -->
+  <div class="esquirlas" aria-hidden="true">
+    <span class="esq esq--roja-1"></span>
+    <span class="esq esq--roja-2"></span>
+    <span class="esq esq--azul-1"></span>
+    <span class="esq esq--azul-2"></span>
+  </div>
+
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <div class="pagina">
+
+    <!-- COLUMNA IZQUIERDA: identidad -->
+    <header class="identidad" id="identidad"></header>
+
+    <!-- COLUMNA DERECHA: secciones -->
+    <main class="contenido" id="contenido"></main>
+
+  </div>
+
+  <footer class="pie" id="pie"></footer>
+
+  <!-- visor de galería -->
+  <div class="visor" id="visor" role="dialog" aria-modal="true" aria-label="Visor de galería" hidden>
+    <button class="visor__cerrar" id="visorCerrar" aria-label="Cerrar">&#10005;</button>
+    <div class="visor__caja" id="visorCaja"></div>
+    <p class="visor__titulo" id="visorTitulo"></p>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
